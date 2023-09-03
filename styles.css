@@ -1,0 +1,137 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    border: 3;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color:   #5A352A;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* Existing styles */
+
+/* Additional styles for search */
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+ /* Your CSS styles for authors list */
+  .author {
+    margin: 0px 0; /* Add margin to top and bottom, 0 margin on left and right */
+    padding: 20px; /* Add padding for spacing inside the container */
+    border: 1px solid #ccc; /* Add border for visual separation */
+  }
+#searchInput {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#searchButton {
+    padding: 6px 12px;
+    background-color:#FFA500;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+#loginButton {
+    padding: 6px 12px;
+    background-color:#800080;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+  /* CSS style for book container */
+  .book {
+    display: flex;
+    margin-bottom: 0px;
+    border: 1px solid #ccc;
+    padding: 30px;
+  }
+
+  /* CSS style for book image */
+  .book img {
+    max-width: 100px;
+    height:150px;
+    margin-right: 10px;
+  }
+
+  /* CSS style for book details */
+  .book-details {
+    flex-grow: 1;
+  }
+
+  /* CSS style for order button */
+  .order-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    height:50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+ /* Styling for the heading */
+  .moving-heading {
+    font-family: 'Your Stylish Font', sans-serif;
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
+    animation: moveText 3s infinite alternate;
+  }
+
+  /* Keyframes animation for the moving effect */
+  @keyframes moveText {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(10px);
+    }
+  }
+

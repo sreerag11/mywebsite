@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ body {
+  background-image: url("https://i.ytimg.com/vi/bC0hewvmAQQ/maxresdefault.jpg");
+}
+  /* Your CSS styles for the login form */
+  .login-container {
+    width: 600px;
+    height:300px;
+    margin: 0 auto;
+    padding: 100px;
+    border: 1spx solid #ccc;
+    background-color:  #f5f5f5;
+    border-radius: 12px;
+  }
+
+  .input-field {
+    margin-bottom: 10px;
+}
+
+  .submit-button {
+    background-color: #0000ff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+  <script src="jscodes.js"></script>
+<div class="login-container">
+  <h2>Login Form</h2>
+  <form id="loginForm">
+    <div class="input-field">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+    </div>
+    <div class="input-field">
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+    </div>
+    <button onclick="submit()" class="submit-button" type="submit">Login</button>
+    <div class="button-container">
+      <button class="create-account-button" type="button" onclick="goToCreateAccount()">Create Account</button>
+    </div>
+  </form>
+</div>
+<script src="login.js"></script>
+</body>
+</html>
